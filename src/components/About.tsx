@@ -16,8 +16,9 @@ const About = () => {
                   className="w-full h-full object-cover"
                   controls
                   autoPlay
-                  src="/video-1.mp4"
-                  poster="/poster-image.jpg"
+                  muted
+                  playsInline
+                  preload="auto"
                 >
                   <source src="/video-1.mp4" type="video/mp4" />
                   Tu navegador no soporta el elemento de video.
