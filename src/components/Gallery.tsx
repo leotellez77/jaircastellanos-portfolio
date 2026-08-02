@@ -46,8 +46,18 @@ import painting44 from "@/assets/painting-44.jpg";
 import painting45 from "@/assets/painting-45.jpg";
 import painting46 from "@/assets/painting-46.jpg";
 import painting47 from "@/assets/painting-47.jpg";
+import painting51 from "@/assets/painting-51.jpg";
 
 const paintings = [
+  {
+    id: 51,
+    image: painting51,
+    title: "Guardiana de las Miradas",
+    medium: "Técnica mixta de bolígrafo",
+    year: "2026",
+    size: "22 × 30.5 cm",
+    category: "Espiritualidad y Simbolismo",
+  },
   {
     id: 1,
     image: painting1,
@@ -473,7 +483,7 @@ const paintings = [
   },
 ];
 
-const categories = ["Todas", "Retratos", "Naturaleza", "Abstracto", "Animales",];
+const categories = ["Todas", "Retratos", "Naturaleza", "Abstracto", "Animales", "Espiritualidad y Simbolismo",];
 
 const Gallery = () => {
   const [activeCategory, setActiveCategory] = useState("Todas");
