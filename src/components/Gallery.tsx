@@ -48,8 +48,18 @@ import painting46 from "@/assets/painting-46.jpg";
 import painting47 from "@/assets/painting-47.jpg";
 import painting51 from "@/assets/painting-51.jpg";
 import painting52 from "@/assets/painting-52.jpg";
+import painting53 from "@/assets/painting-53.jpg";
 
 const paintings = [
+  {
+    id: 53,
+    image: painting53,
+    title: "Homenaje a Anthony Hopkins",
+    medium: "Bolígrafo sobre papel",
+    year: "2026",
+    size: "23 × 34.5 cm",
+    category: "Retratos",
+  },
   {
     id: 52,
     image: painting52,
