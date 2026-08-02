@@ -47,8 +47,18 @@ import painting45 from "@/assets/painting-45.jpg";
 import painting46 from "@/assets/painting-46.jpg";
 import painting47 from "@/assets/painting-47.jpg";
 import painting51 from "@/assets/painting-51.jpg";
+import painting52 from "@/assets/painting-52.jpg";
 
 const paintings = [
+  {
+    id: 52,
+    image: painting52,
+    title: "Espiral Botánica",
+    medium: "Bolígrafo sobre papel texturizado",
+    year: "2026",
+    size: "30.5 × 40.6 cm",
+    category: "Naturaleza",
+  },
   {
     id: 51,
     image: painting51,
