@@ -3,6 +3,7 @@ import painting1 from "@/assets/painting-1.jpg";
 import painting2 from "@/assets/painting-2.jpg";
 import painting3 from "@/assets/painting-3.jpg";
 import painting50 from "@/assets/painting-50.jpg";
+import painting51 from "@/assets/painting-51.jpg";
 
 const paintings = [
   {
@@ -10,6 +11,12 @@ const paintings = [
     title: "El pescador",
     medium: "Bolígrafo sobre papel",
     year: "2024",
+  },
+  {
+    image: painting51,
+    title: "Guardiana de las Miradas",
+    medium: "Técnica mixta de bolígrafo",
+    year: "2026",
   },
   {
     image: painting2,
